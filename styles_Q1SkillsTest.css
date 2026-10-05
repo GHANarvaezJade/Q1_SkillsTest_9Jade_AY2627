@@ -1,0 +1,111 @@
+.header {
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f1f5;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #176b87;
+}
+
+h2 {
+    color: #176b87;
+}
+
+h3 {
+    color: #333333;
+}
+
+
+p {
+    line-height: 1.5;
+}
+
+
+li {
+    margin: 8px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+
+.options,
+.checkboxes {
+    margin-top: 5px;
+}
+
+.options label,
+.checkboxes label {
+    display: inline;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #176b87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0e4f65;
+}
+
+
+hr {
+    margin: 30px 0;
+}
